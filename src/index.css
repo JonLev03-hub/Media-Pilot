@@ -1,10 +1,19 @@
-body {
-  margin:0;
-  padding:0;
-  color:aliceblue;
+* {
+  margin: 0;
+  padding: 0;
 }
+body {
+  --color-main: hsl(270, 72%, 33%);
+  --color-secondary: hsl(45, 100%, 61%);
+  --color-tertiary: hsl(28, 100%, 58%);
+  --color-accent: hsl(0, 100%, 64%);
+  --color-light: hsl(57, 27%, 84%);
+  --color-dark: hsl(220, 13%, 18%);
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  padding:0;
+  background-color:aliceblue;
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  font-size: 4.5rem;
 }
