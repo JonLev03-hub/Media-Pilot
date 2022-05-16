@@ -27,17 +27,33 @@ export default function Navbar() {
       <h1 className={Styles.title}>Media Pilot</h1>
       {(toggleMenu || screenWidth > 500) && (
         <ul className={Styles.list}>
-          <li className={Styles.items}>Services</li>
-          <li className={Styles.items}>Pricing</li>
-          <li className={Styles.items}>Resouces</li>
-          <li className={Styles.items}>Company</li>
+          <li className={Styles.items}>
+            <Link to="/" className={Styles.items}>
+              Services
+            </Link>
+          </li>
+          <li className={Styles.items}>
+            <Link to="/" className={Styles.items}>
+              Pricing
+            </Link>
+          </li>
+          <li className={Styles.items}>
+            <Link to="/" className={Styles.items}>
+              About Us
+            </Link>
+          </li>
+          <li className={Styles.items}>
+            <Link to="/" className={Styles.items}>
+              Resources
+            </Link>
+          </li>
           <li>
-            <button className={Styles.login}>Login</button>
+            <a className={Styles.login}>Login/Register</a>
           </li>
         </ul>
       )}
       <button onClick={toggleNav} className={Styles.hambergerBtn}>
-        <img className={Styles.img} src={icon} />
+        <img className={Styles.img} src={icon} alt="Menu" />
       </button>
     </nav>
   );
