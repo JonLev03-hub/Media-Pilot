@@ -3,17 +3,17 @@
   padding: 0;
 }
 body {
-  --color-primary: hsl(270, 72%, 33%);
+  --color-primary: rgb(84, 24, 145);
   --color-secondary: hsl(45, 100%, 61%);
   --color-tertiary: hsl(28, 100%, 58%);
   --color-accent: hsl(0, 100%, 64%);
-  --color-grey: hsl(0, 0%, 90%);
+  --color-grey: hsl(0, 0%, 88%);
   --color-offblack: hsl(0, 0%, 20%);
 
   padding:0;
   background-color:aliceblue;
   font-family: 'Roboto', sans-serif;
-}
-h1 {
-  font-size: 4.5rem;
+
+  color:var(--color-offblack);
+  line-height:1.5;
 }

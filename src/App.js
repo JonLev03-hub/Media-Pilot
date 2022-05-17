@@ -1,11 +1,17 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar/Navbar";
+import Landing from "./pages/Landing/Landing";
+import About from "./pages/Landing/About";
 function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar />
+        <Routes>
+          <Route path="/" element={<Landing />}>
+            <Route path="/" element={<About />} />
+            <Route />
+          </Route>
+        </Routes>
       </Router>
     </div>
   );

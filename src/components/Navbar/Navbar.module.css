@@ -27,7 +27,7 @@
 
 .login {   
     display:inline-block; 
-    padding:7px 45px;
+    padding:7px 20px;
     background: linear-gradient(to right, var(--color-secondary), var(--color-tertiary));
     border-radius: 15px;
     margin-right: 5vw;
@@ -36,8 +36,9 @@
     letter-spacing: 2px;
 }
 .login:hover {
-    text-shadow: 0px 0px .5px var(--color-offwhite);
+    text-shadow: 0px 0px 3px var(--color-white);
     box-shadow: 2px 2px 5px #888888;
+    color:white;
 }
 .login:after {
     width:0px;

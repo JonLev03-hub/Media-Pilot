@@ -29,7 +29,7 @@ export default function Navbar() {
         <ul className={Styles.list}>
           <li className={Styles.items}>
             <Link to="/" className={Styles.items}>
-              Services
+              About Us
             </Link>
           </li>
           <li className={Styles.items}>
@@ -39,7 +39,7 @@ export default function Navbar() {
           </li>
           <li className={Styles.items}>
             <Link to="/" className={Styles.items}>
-              About Us
+              Services
             </Link>
           </li>
           <li className={Styles.items}>
@@ -48,7 +48,7 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <a className={Styles.login}>Login/Register</a>
+            <a className={Styles.login}>Create Free Account</a>
           </li>
         </ul>
       )}
