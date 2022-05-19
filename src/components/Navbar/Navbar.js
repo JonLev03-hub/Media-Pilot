@@ -25,7 +25,7 @@ export default function Navbar() {
   return (
     <nav className={Styles.nav}>
       <h1 className={Styles.title}>Media Pilot</h1>
-      {(toggleMenu || screenWidth > 500) && (
+      {(toggleMenu || screenWidth > 1060) && (
         <ul className={Styles.list}>
           <li className={Styles.items}>
             <Link to="/" className={Styles.items}>

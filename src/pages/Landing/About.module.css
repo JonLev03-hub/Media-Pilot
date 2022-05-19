@@ -1,14 +1,37 @@
+/* Section Code */
 .section {
-    width:80vw;
+    width:100vw;
     margin: 0 auto;
     display:flex;
+    position:relative;
+    flex-wrap:wrap;
+    justify-content:center;
 }
 
-.textContainer {
-    width:50%;
+.section:nth-child(1) {
+    min-height:90vh;
     padding-top:150px;
 }
+/* Container code */
+.containerHalf{
+    width:40%;
+    min-width:450px;
+    position:relative;
+    min-height:10px;
+    min-height:300px;
+    display:inline-block;
+}
+
+#displayOne {
+    width:350px;
+    border: 2px solid var(--color-grey);
+    border-radius: 10px;
+    margin-left:30%;
+}
 .button {
+    display:inline-block;
+    text-align: center;
+    text-decoration: none;
     width:175px;
     height:50px;
     margin:20px 20px 3px 0px;
@@ -19,40 +42,43 @@
     border-radius: 10px;
     transition: all 0.3s;
 }
-
-.buttonInvert {
-    width:175px;
-    height:50px;
-    margin:20px 20px 3px 0px;
-    background-color: var(--color-primary);
-    border: 2px solid var(--color-primary);
-    color: var(--color-grey);
-    font-size: 1.5rem;
-    border-radius: 10px;
-    transition: all 0.3s ;
+a.button {
+    padding-top:10px;
 }
-
-.button:hover {
-    background-color: var(--color-primary);
-    color: var(--color-grey);
-    cursor:pointer;
-    box-shadow: 2px 2px 5px #888888;
-    opacity:75%;
-}
+.button:hover,
 .buttonInvert:hover {
-    background-color:rgb(65, 18, 111);
+    background:linear-gradient(to right, hsl(270, 72%, 51%), var(--color-primary));
     color: var(--color-grey);
-    cursor:pointer;
+    cursor:pointer; 
     box-shadow: 2px 2px 5px #888888;
-    opacity:75%;
-
+    border:none;
+    opacity:90%;
 }
 
-.mainHeader {
+.h1 {
     font-size:4.3rem;
+    color:transparent;
+    background: linear-gradient(to right, hsl(270, 100%, 60%),10%, var(--color-primary));
+    background-clip: text;
+    flex-shrink:0;
+}
+.h2 {
+    font-size: 2rem;
+    color: var(--color-primary);
+    max-width:80vw;
+    text-align:center;
+    margin-bottom:150px;
+}
+.h3 {
+    font-size: 2.2rem;
+    color: var(--color-primary);
+    max-width: 80vw;
+    margin-bottom: 30px;
 }
 
 .p {
-    font-size:1.1rem;
-    font-family:'Times New Roman', Times, serif
+    font-size:1.3rem;
+    color: rgb(101, 101, 101);
+    font-family:'Times New Roman', Times, serif;
+    width:80%;
 }

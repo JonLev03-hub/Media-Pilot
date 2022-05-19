@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  --color-primary: rgb(84, 24, 145);
+  --color-primary: hsl(270, 72%, 33%);
   --color-secondary: hsl(45, 100%, 61%);
   --color-tertiary: hsl(28, 100%, 58%);
   --color-accent: hsl(0, 100%, 64%);
@@ -16,4 +16,7 @@ body {
 
   color:var(--color-offblack);
   line-height:1.5;
+}
+* {
+  z-index: 1;
 }
