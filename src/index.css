@@ -11,12 +11,8 @@ body {
   --color-offblack: hsl(0, 0%, 20%);
 
   padding:0;
-  background-color:aliceblue;
   font-family: 'Roboto', sans-serif;
 
   color:var(--color-offblack);
   line-height:1.5;
-}
-* {
-  z-index: 1;
 }
