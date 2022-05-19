@@ -21,13 +21,15 @@
     min-height:300px;
     display:inline-block;
 }
-
+/* Image css */
 #displayOne {
     width:350px;
     border: 2px solid var(--color-grey);
     border-radius: 10px;
     margin-left:30%;
 }
+
+/* Button css */
 .button {
     display:inline-block;
     text-align: center;
@@ -54,7 +56,7 @@ a.button {
     border:none;
     opacity:90%;
 }
-
+/* Header Css */
 .h1 {
     font-size:4.3rem;
     color:transparent;
@@ -75,10 +77,10 @@ a.button {
     max-width: 80vw;
     margin-bottom: 30px;
 }
-
+/* Text Css */
 .p {
     font-size:1.3rem;
     color: rgb(101, 101, 101);
     font-family:'Times New Roman', Times, serif;
-    width:80%;
+    width:90%;
 }
