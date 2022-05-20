@@ -2,6 +2,7 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Landing from "./pages/Landing/Landing";
 import About from "./pages/Landing/About";
+import UnderConstruction from "./components/UnderConstruction/UnderConstruction";
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
           </Route>
         </Routes>
       </Router>
+      <UnderConstruction />
     </div>
   );
 }

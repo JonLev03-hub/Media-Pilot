@@ -1,6 +1,6 @@
 .main {
     min-height: calc(100vh - 60px);
-    height:2000px;
+    height:3000px;
     margin-top:60px;
     /* background-image: linear-gradient(to top, var(--color-secondary),10%,transparent,white); */
 }   
