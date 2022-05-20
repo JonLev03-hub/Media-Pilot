@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/github.com/media-pilot/static/css/main.f626256d.css",
-    "main.js": "/github.com/media-pilot/static/js/main.8104827e.js",
-    "index.html": "/github.com/media-pilot/index.html",
-    "main.f626256d.css.map": "/github.com/media-pilot/static/css/main.f626256d.css.map",
-    "main.8104827e.js.map": "/github.com/media-pilot/static/js/main.8104827e.js.map"
+    "main.css": "/media-pilot/static/css/main.f626256d.css",
+    "main.js": "/media-pilot/static/js/main.8104827e.js",
+    "index.html": "/media-pilot/index.html",
+    "main.f626256d.css.map": "/media-pilot/static/css/main.f626256d.css.map",
+    "main.8104827e.js.map": "/media-pilot/static/js/main.8104827e.js.map"
   },
   "entrypoints": [
     "static/css/main.f626256d.css",
