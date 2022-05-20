@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/media-pilot/static/css/main.f626256d.css",
-    "main.js": "/media-pilot/static/js/main.8104827e.js",
+    "main.js": "/media-pilot/static/js/main.a477fb10.js",
     "index.html": "/media-pilot/index.html",
     "main.f626256d.css.map": "/media-pilot/static/css/main.f626256d.css.map",
-    "main.8104827e.js.map": "/media-pilot/static/js/main.8104827e.js.map"
+    "main.a477fb10.js.map": "/media-pilot/static/js/main.a477fb10.js.map"
   },
   "entrypoints": [
     "static/css/main.f626256d.css",
-    "static/js/main.8104827e.js"
+    "static/js/main.a477fb10.js"
   ]
 }
