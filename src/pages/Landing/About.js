@@ -65,6 +65,24 @@ export default function About() {
         </div>
         <div className={Styles.containerHalfImg}></div>
       </section>
+      <section className={Styles.section}>
+        <div className={Styles.containerHalfImg}></div>
+        <div className={Styles.containerHalf}>
+          <h3 className={Styles.h3}>
+            Media Management
+            <br />
+            made Easy
+          </h3>
+          <p className={Styles.p}>
+            We stride to help businesses grow their online presence with the
+            click of a button. Providing scheduled posting, post suggestions,
+            and performance enhancing analytics is our job!
+          </p>
+          <Link className={Styles.button} to="/">
+            Explore Plans
+          </Link>
+        </div>
+      </section>
     </>
   );
 }

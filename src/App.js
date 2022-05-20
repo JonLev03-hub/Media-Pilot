@@ -5,7 +5,7 @@ import About from "./pages/Landing/About";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<Landing />}>
             <Route path="/" element={<About />} />
