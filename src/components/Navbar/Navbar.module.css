@@ -34,16 +34,18 @@ li.items:hover {
 .login {   
     display:inline-block; 
     padding:7px 20px;
-    background: linear-gradient(to right, var(--color-secondary), var(--color-tertiary));
+    background: linear-gradient(45deg, #fdd4d4,25%, var(--color-primary));
     border-radius: 15px;
     margin-right: 5vw;
     margin-left:6vw;
     transition:all 0.3s ease-in-out;
     letter-spacing: 2px;
+    color:white;
+    text-shadow: 2px 2px 5px #535353;
 }
 .login:hover {
     text-shadow: 0px 0px 3px var(--color-white);
-    box-shadow: 2px 2px 5px #888888;
+    box-shadow: 2px 2px 5px #414141;
     color:white;
 }
 .login:after {

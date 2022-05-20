@@ -32,7 +32,7 @@ export default function About() {
           className={Styles.sectionTopWave}
         >
           <path
-            fill="#fff1f1"
+            fill="#fdd4d4"
             fill-opacity="1"
             d="M0,192L80,213.3C160,235,320,277,480,261.3C640,245,800,171,960,149.3C1120,128,1280,160,1360,176L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
           ></path>
@@ -53,6 +53,17 @@ export default function About() {
             Explore Plans
           </Link>
         </div>
+      </section>
+      <section className={Styles.section}>
+        <div className={Styles.containerHalf}>
+          <h3 className={Styles.h3}>Staying up to date</h3>
+          <p className={Styles.p}>
+            Keeping your business up to date with all of the newest products is
+            a hassle, we help you find and post relevant material from others in
+            your network and automatically post it on your account.
+          </p>
+        </div>
+        <div className={Styles.containerHalfImg}></div>
       </section>
     </>
   );
