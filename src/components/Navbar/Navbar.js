@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Styles from "./Navbar.module.css";
 import icon from "./Hamberger.png";
+import DropDown from "../DropDown/DropDown";
 export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
@@ -38,14 +39,29 @@ export default function Navbar() {
             </Link>
           </li>
           <li className={Styles.items}>
-            <Link to="/" className={Styles.items}>
-              Services
-            </Link>
+            <DropDown>
+              <Link className={Styles.items} to="/">
+                Services
+              </Link>
+              <ul>
+                <li>Post Scheduling</li>
+                <li>Post Time Suggestions</li>
+                <li>Hashtag suggestions</li>
+                <li>Repost Suggestion</li>
+                <li>Account Analytics</li>
+                <li>Ad Management</li>
+              </ul>
+            </DropDown>
           </li>
           <li className={Styles.items}>
-            <Link to="/" className={Styles.items}>
-              Resources
-            </Link>
+            <DropDown>
+              <p className={Styles.items}>Resources</p>
+              <ul>
+                <li>Media</li>
+                <li>FAQ</li>
+                <li>Media</li>
+              </ul>
+            </DropDown>
           </li>
           <li>
             <a className={Styles.login}>Create Free Account</a>
