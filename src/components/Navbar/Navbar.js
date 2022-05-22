@@ -57,9 +57,8 @@ export default function Navbar() {
             <DropDown>
               <p className={Styles.items}>Resources</p>
               <ul>
-                <li>Media</li>
                 <li>FAQ</li>
-                <li>Media</li>
+                <li>Contact</li>
               </ul>
             </DropDown>
           </li>
