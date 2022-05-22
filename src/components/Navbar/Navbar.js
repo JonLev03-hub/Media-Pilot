@@ -34,13 +34,13 @@ export default function Navbar() {
             </Link>
           </li>
           <li className={Styles.items}>
-            <Link to="/" className={Styles.items}>
+            <Link to="/pricing" className={Styles.items}>
               Pricing
             </Link>
           </li>
           <li className={Styles.items}>
             <DropDown>
-              <Link className={Styles.items} to="/">
+              <Link className={Styles.items} to="/Services">
                 Services
               </Link>
               <ul>
@@ -55,7 +55,9 @@ export default function Navbar() {
           </li>
           <li className={Styles.items}>
             <DropDown>
-              <p className={Styles.items}>Resources</p>
+              <Link className={Styles.items} to="/Resources">
+                Resources
+              </Link>
               <ul>
                 <li>FAQ</li>
                 <li>Contact</li>
