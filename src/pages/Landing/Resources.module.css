@@ -4,3 +4,50 @@
     width: 80vw;
     height: 100%;
 }
+
+.contactContainer {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contactForum {
+    width: 30vw;
+    min-width:400px;
+    text-align: center;
+    padding:2.5vw;
+    text-align: center;
+    margin: 10vh 5vw;
+    background-color: #fdd4d4;
+    color: var(--color-primary);
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px -1px #000000;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+
+}
+.contactForum h1 { 
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1vw;
+}
+.contactForum input,
+.contactForum textarea,
+.contactForum button {
+    width:100%;
+    height:50px;
+    margin-top:10px;
+    border:none;
+    border-radius:5px;
+    background-color:var(--color-primary);
+    color:white;
+    font-size:1rem;
+    font-weight:bold;
+    cursor:pointer;
+    text-align: center;
+    justify-content: center;
+}
+
+.contactForum textarea {
+    padding-top:20px;
+    height:130px;
+}
