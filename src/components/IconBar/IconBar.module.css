@@ -12,8 +12,10 @@
 }
 .list li {
     display:inline-block;
-    height:70px;
-    width:70px;
+    width: 15vw;
+    height: 15vw;
+    max-width:70px;
+    max-height:70px;
 }
 .list img {
     width:100%;
@@ -24,20 +26,13 @@
 
 @media screen and (max-width: 1000px) {
     .container {
-        width:100vw;
+        width:80vw;
         min-height:0px;
         min-width:0;
+        margin: 20px auto;
     }
     .list {
-        width:100vw;
+        width:100%;
         height:auto;
-        min-height:0px;
-        min-width:0;
-    }
-    .list img {
-        width:18vw;
-        height:auto;
-        margin:0;
-        padding:0;
     }
 }
