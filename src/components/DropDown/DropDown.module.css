@@ -48,3 +48,9 @@ li:hover .container *+.dropDown,
     padding:0;
     margin-left:-5px;
 }
+
+@media screen and (max-width: 1000px) {
+    .dropDown {
+        display:none;
+    }
+}
