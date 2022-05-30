@@ -49,7 +49,7 @@ export default function About() {
             click of a button. Providing scheduled posting, post suggestions,
             and performance enhancing analytics is our job!
           </p>
-          <Link className={Styles.button} to="/">
+          <Link className={Styles.button} to="/pricing">
             Explore Plans
           </Link>
         </div>
@@ -89,7 +89,7 @@ export default function About() {
             why we provide insights to what posts are making your business
             known.
           </p>
-          <Link className={Styles.button} to="/">
+          <Link className={Styles.button} to="/services">
             See what we offer
           </Link>
         </div>

@@ -3,9 +3,3 @@
     margin-top:60px;
     /* background-image: linear-gradient(to top, var(--color-secondary),10%,transparent,white); */
 }   
-
-@media screen and (max-width: 800px) {
-    .main {
-        width:80vw;
-    }   
-}
