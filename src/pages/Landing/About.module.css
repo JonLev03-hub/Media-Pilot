@@ -21,6 +21,9 @@
     background-color: #fdd4d4;
     padding-bottom:100px;
 }
+.section:nth-last-child(1) {
+    padding-bottom: 100px;
+}
 
 .sectionTopWave {
     position:absolute;

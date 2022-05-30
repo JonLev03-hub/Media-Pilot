@@ -1,21 +1,22 @@
 .container {
     color:rgb(101, 101, 101);
     margin-top:50px;
+    text-align: left;
 }
 .list {
     list-style: none;
     height:70px;
     margin-top:10px;
-    display: flex;
+    display: block;
     justify-content: space-between;
-    width:80%;
+    width:100%;
 }
 .list li {
     display:inline-block;
-    width: 15vw;
-    height: 15vw;
     max-width:70px;
     max-height:70px;
+    margin-right:10px;
+    width:15%;
 }
 .list img {
     width:100%;
