@@ -45,7 +45,7 @@
     margin:20px;
     border: 2px solid var(--color-primary);
     text-align:center;
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
     color: rgb(101, 101, 101);
     display:flex;
     flex-direction:column;
@@ -62,15 +62,14 @@
     font-family: 'Times New Roman', Times, serif;
 }
 .card h1 {
-    font-size:2.3rem;
-    background: linear-gradient(to right, hsl(270, 100%, 60%), var(--color-primary));
+    font-size:2.3rem;;
     background-clip: text;
-    color:transparent;
+    color:hsl(270, 100%, 60%);
     margin-bottom:10px;
 }
 .card h2 { 
     margin-top: auto;
-    color:var(--color-primary);
+    color:hsl(270, 100%, 60%);
     display:inline;
     font-size:2.5rem;
 }
@@ -83,13 +82,14 @@
 .card h3 {
     font-size:1.2rem;
     margin-top:auto;
-    color:var(--color-primary);
+    color:hsl(270, 100%, 60%);
 }
 .card ul {
     text-align:left;
     width:fit-content;
     margin:0 auto;
     font-family: 'Times New Roman', Times, serif;
+    list-style:none;
 }
 .card li {
     font-size:1.2rem;
@@ -100,7 +100,7 @@
 .card a {
     display:block;
     color:white;
-    background: linear-gradient(to right, hsl(270, 100%, 60%),80%, var(--color-primary));
+    background: hsl(270, 100%, 60%);
     text-decoration:none;
     width:100%;
     font-size:20px;

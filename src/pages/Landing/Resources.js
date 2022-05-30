@@ -37,7 +37,7 @@ export default function Resources() {
         </div>
       </section>
       <section className={Styles.contactContainer}>
-        <img src="./images/Mail.svg"></img>
+        <img src="./images/Mail.png" className={Styles.mailImg}></img>
         <form className={Styles.contactForum}>
           <h1>Contact Us</h1>
           <p>

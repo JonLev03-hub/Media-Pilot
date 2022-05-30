@@ -8,6 +8,7 @@
 .contactContainer {
     display:flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 .contactForum {
@@ -50,4 +51,9 @@
 .contactForum textarea {
     padding-top:20px;
     height:130px;
+}
+
+.mailImg {
+    width: 30%;
+    height:min-content;
 }
