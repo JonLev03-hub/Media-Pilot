@@ -78,6 +78,7 @@ export default function Pricing() {
         </p>
       </div>
       <section className={Styles.features}>
+        <h1>Features</h1>
         <table></table>
       </section>
     </div>
