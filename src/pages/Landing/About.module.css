@@ -38,7 +38,6 @@
 .containerHalf,
 .containerHalfImg{
     width:40%;
-    min-width:450px;
     position:relative;
     min-height:10px;
     min-height:300px;
@@ -105,28 +104,33 @@ a.button {
 
 /* Media Queries */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
     .containerHalf {
-        width:100vw;
-        min-height:0px;
-        min-width:0;
-    }
-    .section:nth-child(1) {
-        min-height: 65vh;
-    }
-    .containerHalfImg {
-        display:none;
-    }
-    .h1 {
-        font-size:3.5rem;
-    }
-    .h3 {
-        font-size: 1.8rem;
-    }
-    .p {
-        font-size:1.1rem;
+        text-align:center;
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        width:70vw;
     }
     #displayOne {
-    display:none;
+        display: none;
+    }
+    .button {
+        width:90%;
+        margin:10px 0;
+    }
+    .p,
+    .h1,
+    .h3 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .h1 {
+        font-size:2.5rem;
+    }
+    .h3 {
+        font-size: 1.4rem;
     }
 }
