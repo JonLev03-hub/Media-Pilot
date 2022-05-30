@@ -11,7 +11,7 @@ export default function Services() {
             around to post at the best time for your business. We make sure your
             posts go out on time so you don't need to.
           </p>
-          <IconBar supportedBy={["Facebook", "Twitter", "Instagram"]} />
+          <IconBar supportedBy={["facebook", "twitter", "instagram"]} />
         </div>
         <div className={Styles.containerHalfImg}></div>
       </section>
@@ -35,7 +35,7 @@ export default function Services() {
             most for the media you put online we are able to track your users
             and suggest the best time to post.
           </p>
-          <IconBar supportedBy={["Facebook", "Twitter", "Instagram"]} />
+          <IconBar supportedBy={["facebook", "twitter", "instagram"]} />
         </div>
       </section>
       <section className={Styles.section}>
@@ -73,7 +73,7 @@ export default function Services() {
             that you may be interested in putting on your page aswell.
           </p>
           <IconBar
-            supportedBy={["Facebook", "Twitter", "Instagram", "pintrest"]}
+            supportedBy={["facebook", "twitter", "instagram", "pintrest"]}
           />
         </div>
       </section>
@@ -102,7 +102,7 @@ export default function Services() {
             takes time that youshouldnt need to spend. Media Pilot can guide
             your ad campaigns and help you make the most of your paid ads.
           </p>
-          <IconBar supportedBy={["Facebook", "Instagram"]} />
+          <IconBar supportedBy={["facebook", "instagram"]} />
         </div>
       </section>
     </>

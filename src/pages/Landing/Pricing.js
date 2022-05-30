@@ -1,6 +1,17 @@
 import Styles from "./Pricing.module.css";
 import { Link } from "react-router-dom";
 export default function Pricing() {
+  const tableData = [
+    ["", "Beginner", "Online Novice", "Web Pro"],
+    ["Price", "$15", "$35", "$70"],
+    ["Accounts per platform", "1", "3", "5"],
+    ["Users", "1", "4", "Unlimited"],
+    ["Posts Per Month", "50", "150", "Unlimited"],
+    ["Post Scheduling", "Yes", "Yes", "Yes"],
+    ["Auto Repost", "No", "Yes", "Yes"],
+    ["Post Analytics", "No", "Basic", "Advanced"],
+    ["Ad Management", "No", "No", "Yes"],
+  ];
   return (
     <div className={Styles.container}>
       <section className={Styles.header}>
@@ -79,7 +90,22 @@ export default function Pricing() {
       </div>
       <section className={Styles.features}>
         <h1>Features</h1>
-        <table></table>
+        <table className={Styles.table}>
+          <thead>
+            {tableData[0].map((item, index) => (
+              <th key={index}>{item}</th>
+            ))}
+          </thead>
+          <tbody>
+            {tableData.slice(1).map((row, index) => (
+              <tr key={index}>
+                {row.map((item, index) => (
+                  <td key={index}>{item}</td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
       </section>
     </div>
   );

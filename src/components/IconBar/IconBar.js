@@ -2,9 +2,9 @@ import Styles from "./IconBar.module.css";
 export default function IconBar(props) {
   if (!props.supportedBy) {
     var supportedBy = [
-      "Facebook",
-      "Twitter",
-      "Instagram",
+      "facebook",
+      "twitter",
+      "instagram",
       "linkedin",
       "pintrest",
     ];
