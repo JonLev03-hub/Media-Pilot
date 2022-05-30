@@ -2,7 +2,7 @@ import Styles from "./Pricing.module.css";
 import { Link } from "react-router-dom";
 export default function Pricing() {
   return (
-    <>
+    <div className={Styles.container}>
       <section className={Styles.header}>
         <h1>Simple Transparent Pricing</h1>
         <p>
@@ -28,7 +28,7 @@ export default function Pricing() {
             <li>Post Scheduling</li>
             <li>50 posts per month</li>
           </ul>
-          <Link to="/">Start Free Trial</Link>
+          <Link to="/pricing">Start Free Trial</Link>
         </div>
         <div className={Styles.card}>
           <h1>Online Novice</h1>
@@ -48,7 +48,7 @@ export default function Pricing() {
             <li>Basic Post Analysis</li>
             <li>150 posts per month</li>
           </ul>
-          <Link to="/">Start Free Trial</Link>
+          <Link to="/pricing">Start Free Trial</Link>
         </div>
         <div className={Styles.card}>
           <h1>Web Pro</h1>
@@ -68,7 +68,7 @@ export default function Pricing() {
             <li>Advanced Post Analysis</li>
             <li>Unlimited posts per month</li>
           </ul>
-          <Link to="/">Start Free Trial</Link>
+          <Link to="/pricing">Start Free Trial</Link>
         </div>
       </section>
       <div className={Styles.microText}>
@@ -80,6 +80,6 @@ export default function Pricing() {
       <section className={Styles.features}>
         <table></table>
       </section>
-    </>
+    </div>
   );
 }
