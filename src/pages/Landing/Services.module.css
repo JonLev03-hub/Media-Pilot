@@ -10,7 +10,7 @@
 
 .section:nth-child(1) {
     min-height: 70vh;
-    padding-top: 150px;
+    padding-top: 70px;
 }
 
 .section:nth-child(2) {
@@ -49,6 +49,7 @@
     min-height: 10px;
     min-height: 300px;
     display: inline-block;
+    margin: auto 0;
 }
 
 /* Image css */
@@ -58,6 +59,10 @@
     border-radius: 10px;
     margin-left: 30%;
     margin-top: -10px;
+}
+.containerHalfImg img {
+    width: 100%;
+
 }
 
 /* Button css */
@@ -139,6 +144,9 @@ a.button {
     .h1,
     .h3 {
         text-align: center;
+    }
+    .containerHalfImg {
+        width: 100vw;
     }
 }
 
