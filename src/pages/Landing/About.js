@@ -37,7 +37,12 @@ export default function About() {
             d="M0,192L80,213.3C160,235,320,277,480,261.3C640,245,800,171,960,149.3C1120,128,1280,160,1360,176L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
           ></path>
         </svg>
-        <div className={Styles.containerHalfImg}></div>
+        <div className={Styles.containerHalfImg}>
+          <img
+            src="./images/schedule.png"
+            alt="Calendar with images to display our auto posting features"
+          />
+        </div>
         <div className={Styles.containerHalf}>
           <h3 className={Styles.h3}>
             Media Management
@@ -63,7 +68,12 @@ export default function About() {
             your network and automatically post it on your account.
           </p>
         </div>
-        <div className={Styles.containerHalfImg}></div>
+        <div className={Styles.containerHalfImg}>
+          <img
+            src="./images/repost.png"
+            alt="iphone with multiple imaes sround it"
+          />
+        </div>
       </section>
       <section className={Styles.section}>
         <svg
@@ -77,7 +87,9 @@ export default function About() {
             d="M0,192L80,213.3C160,235,320,277,480,261.3C640,245,800,171,960,149.3C1120,128,1280,160,1360,176L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
           ></path>
         </svg>
-        <div className={Styles.containerHalfImg}></div>
+        <div className={Styles.containerHalfImg}>
+          <img src="./images/analytics.png" alt="Chart with images below" />
+        </div>
         <div className={Styles.containerHalf}>
           <h3 className={Styles.h3}>
             Reliable Analytics for

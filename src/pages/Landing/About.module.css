@@ -45,6 +45,7 @@
     min-height:10px;
     min-height:300px;
     display:inline-block;
+    margin:auto 0;
 }
 /* Image css */
 #displayOne {
@@ -54,7 +55,10 @@
     margin-left:30%;
     margin-top:-10px;
 }
+.containerHalfImg img {
+    width:100%;
 
+}
 /* Button css */
 .button {
     display:inline-block;
@@ -108,15 +112,22 @@ a.button {
 /* Media Queries */
 
 @media screen and (max-width: 900px) {
-    .containerHalf {
+    .containerHalf,
+    .containerHalfImg {
         text-align:center;
         display:flex;
         flex-direction:column;
         align-items: center;
+        justify-content: center;
         width:70vw;
+        height:fit-content;
+    }
+    .containerHalfImg {
+        width:100vw;
     }
     #displayOne {
-        display: none;
+        margin:0 auto;
+        width:90vw;
     }
     .button {
         width:90%;
