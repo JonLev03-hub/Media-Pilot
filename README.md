@@ -1,11 +1,11 @@
 # Media Pilot Website 
 Media Pilot is a tool designed for business owners and influencers that helps improve interactivity by allowing you to make scheduled posts, view analytics about your account, and get suggestions based on other users. I designed this website to display my ability to create and build a product landing page from scratch.
 
-View the site: media-pilot.com
+View the site: https://media-pilot.com/
 
 ### Homepage 
 #### web version :
-![image](https://user-images.githubusercontent.com/81537476/171307179-589f8d3c-cf6e-4916-9cee-c29fcc088d08.png)
+![image of the homepage](https://user-images.githubusercontent.com/81537476/171307179-589f8d3c-cf6e-4916-9cee-c29fcc088d08.png)
 The entire site is mobily responsive and stacks when the screen is too small. Along with that the navbar turns into a button with a drop down. 
 
 
